@@ -9,11 +9,11 @@ namespace ActionDelegateDemo1
         {
             InitializeComponent();
         }
-
+// I do not know if I am doing this right or not. I am scared I'm messing everyone's files up 
         private void demoButton_Click(object sender, EventArgs e)
         {
             // Create an Action delegate.
-            Action DisplayTest = () => MessageBox.Show("Testing, 1, 2, 3…");
+            Action DisplayTest = () => MessageBox.Show("Testing, 1, 2, 3â€¦");
 
             // Invoke the delegate.
             DisplayTest();
